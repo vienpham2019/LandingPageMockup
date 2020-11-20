@@ -3,31 +3,35 @@ export default function Navbar() {
   const info = ["ABOUT", "ACCOUNT"];
 
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4">
-      <div class="container font-weight-light">
-        <span class="navbar-brand" role="button" style={{ fontSize: "1.7em" }}>
+    <nav className="navbar navbar-expand-lg navbar-light bg-white py-4">
+      <div className="container font-weight-light">
+        <span
+          className="navbar-brand"
+          role="button"
+          style={{ fontSize: "1.7em" }}
+        >
           Becoming You
         </span>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarCollapse"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mx-auto my-2">
+        <div className="collapse navbar-collapse" id="navbarCollapse">
+          <ul className="navbar-nav mx-auto my-2">
             {collapse.map((value) => (
-              <li class="nav-item mx-3" role="button">
+              <li className="nav-item mx-3" role="button">
                 <span>{value}</span>
               </li>
             ))}
           </ul>
-          <ul class="navbar-nav mx-auto my-2">
+          <ul className="navbar-nav mx-auto my-2">
             {info.map((value) => (
-              <li class="nav-item mx-3" role="button">
+              <li className="nav-item mx-3" role="button">
                 <span>{value}</span>
               </li>
             ))}

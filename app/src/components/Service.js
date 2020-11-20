@@ -19,18 +19,18 @@ export default function Service() {
   ];
   return (
     <div>
-      <div class="h-50 px-5 overflow-hidden w-100 my-5">
-        <div class="row d-flex flex-wrap">
+      <div className="h-50 px-5 overflow-hidden w-100 my-5">
+        <div className="row d-flex flex-wrap">
           {service.map((value) => (
             <div
-              class="col m-3 d-flex align-items-center header-background"
+              className="col m-3 d-flex align-items-center header-background"
               style={{
                 height: "20em",
                 minWidth: "20em",
                 backgroundImage: `url(${value.url})`,
               }}
             >
-              <span class="mx-auto p-3 bg-white w-75 text-center">
+              <span className="mx-auto p-3 bg-white w-75 text-center">
                 {value.content}
               </span>
             </div>
@@ -38,20 +38,22 @@ export default function Service() {
         </div>
       </div>
       <div
-        class="service-background border"
+        className="service-background border"
         style={{
           height: "50em",
           margin: "5em 3em",
           backgroundImage: `url(${flower_img})`,
         }}
       >
-        <div class="h-100 text-center mx-auto d-flex align-items-center">
-          <div class="w-100">
-            <span class="text-white p-2 service-title">
+        <div className="h-100 text-center mx-auto d-flex align-items-center">
+          <div className="w-100">
+            <span className="text-white p-2 service-title">
               How we are diffrent?
             </span>
             <br />
-            <button class="btn px-5 py-4 header-button my-3">LEARN MORE</button>
+            <button className="btn px-5 py-4 header-button my-3">
+              LEARN MORE
+            </button>
           </div>
         </div>
       </div>

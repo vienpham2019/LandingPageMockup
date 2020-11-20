@@ -8,7 +8,7 @@ export default function App() {
     <div>
       <Navbar />
       <HomeHeader />
-      <div class="text-center" style={{ padding: "10em 0" }}>
+      <div className="text-center" style={{ padding: "10em 0" }}>
         <h1>Some meaningful blurb...</h1>
       </div>
       <Service />
