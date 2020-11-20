@@ -1,0 +1,66 @@
+li {
+  list-style: none;
+}
+
+.header-background {
+  background-repeat: none;
+  background-size: cover;
+  background-image: url("https://lh3.googleusercontent.com/proxy/_LxuousVOTkQmO_oncd-U7B4NWPq9HJbHIAUVpp39wzs7cUcuuoLufFVWR1TtnOyskCZE1iWOr0zznsfmnZJdSFvtkJwxQpHacmOf8tnn-XpOZa9IwwriZ67y53oTbLOzFz_h7zq_peDF5E");
+  background-position: center;
+  height: 80vh;
+}
+
+.header-button {
+  background-color: rgb(231, 221, 83);
+  border-radius: 0;
+  font-size: 0.9em;
+}
+
+.header-title {
+  font-size: 4em;
+  line-height: normal;
+}
+
+/* service component */
+
+.service-background {
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.service-title {
+  font-size: 3.7em;
+  line-height: normal;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.service-input {
+  height: 50px;
+  border-radius: 0;
+  min-width: 300px;
+}
+
+.service-input::placeholder {
+  color: rgb(189, 189, 189);
+}
+
+/* end servce */
+
+@media (max-width: 630px) {
+  .header-title {
+    font-size: 3.2em;
+  }
+}
+
+@media (max-width: 1050px) {
+  .service-title {
+    font-size: 3.5em;
+  }
+}
+
+@media (max-width: 830px) {
+  .service-title {
+    font-size: 2.3em;
+  }
+}
