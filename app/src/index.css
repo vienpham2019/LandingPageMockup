@@ -5,7 +5,7 @@ li {
 .header-background {
   background-repeat: none;
   background-size: cover;
-  background-image: url("https://lh3.googleusercontent.com/proxy/_LxuousVOTkQmO_oncd-U7B4NWPq9HJbHIAUVpp39wzs7cUcuuoLufFVWR1TtnOyskCZE1iWOr0zznsfmnZJdSFvtkJwxQpHacmOf8tnn-XpOZa9IwwriZ67y53oTbLOzFz_h7zq_peDF5E");
+  background-image: url(./image/home_bg.jpg);
   background-position: center;
   height: 80vh;
 }

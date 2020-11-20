@@ -1,9 +1,8 @@
+import member_1 from "../image/member_1.jpg";
+import member_2 from "../image/member_2.jpg";
+import member_3 from "../image/member_3.jpg";
 export default function OurTeam() {
-  const service = [
-    "https://suburbanmen.com/wp-content/uploads/2020/01/women-in-black-and-white-are-a-beautiful-thing-20180711-106.jpg",
-    "https://i.etsystatic.com/10150478/r/il/85720e/1345114635/il_570xN.1345114635_hqan.jpg",
-    "https://lh3.googleusercontent.com/proxy/EUZv7ZGfmbSpQHvKegr3mq3U7-LjAFx_NMADPLfYQNwwC3RCKkhIrXs4h_ZVJmMSaBvsJeTEzH6d-whPy615qk1C9dkff-Z8bnIIFd5LNgFrdcUMuoinQM3Rk9eFrZbR2_2C4PIuzSuuJ6g8KnsiSFmPnQ",
-  ];
+  const service = [member_1, member_2, member_3];
   return (
     <div style={{ marginBottom: "10em" }}>
       <div class="text-center" style={{ margin: "5em 0" }}>

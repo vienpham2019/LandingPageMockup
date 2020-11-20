@@ -1,18 +1,19 @@
+import flower_img from "../image/flower.jpg";
+import plant_1 from "../image/plant_1.jpg";
+import plant_2 from "../image/plant_2.jpg";
+import plant_3 from "../image/plant_3.jpg";
 export default function Service() {
   const service = [
     {
-      url:
-        "https://wallpaperstock.net/leaf-after-summer-rain-wallpapers_13893_1920x1200.jpg",
+      url: plant_1,
       content: "What",
     },
     {
-      url:
-        "https://www.almanac.com/sites/default/files/styles/opengraph/public/image_nodes/spider-plant_t50-ss.jpg?itok=CY0bu9pJ",
+      url: plant_2,
       content: "We",
     },
     {
-      url:
-        "https://www.almanac.com/sites/default/files/image_nodes/lily-of-the-valley-sun.jpg",
+      url: plant_3,
       content: "Offer",
     },
   ];
@@ -41,8 +42,7 @@ export default function Service() {
         style={{
           height: "50em",
           margin: "5em 3em",
-          backgroundImage:
-            "url('https://cdn.shopify.com/s/files/1/0781/4423/files/03_6e547f44-c075-45a1-b575-7d41acdc6df3.jpg?v=1568864617')",
+          backgroundImage: `url(${flower_img})`,
         }}
       >
         <div class="h-100 text-center mx-auto d-flex align-items-center">
